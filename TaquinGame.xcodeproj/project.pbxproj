@@ -14,6 +14,8 @@
 		E29E4DD62261DC9D00B6F692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29E4DD42261DC9D00B6F692 /* LaunchScreen.storyboard */; };
 		E29E4DE12261DC9D00B6F692 /* TaquinGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E4DE02261DC9D00B6F692 /* TaquinGameTests.swift */; };
 		E29E4DEC2261DC9D00B6F692 /* TaquinGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E4DEB2261DC9D00B6F692 /* TaquinGameUITests.swift */; };
+		E29E4E0022621A0200B6F692 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E4DFF22621A0200B6F692 /* GameViewController.swift */; };
+		E29E4E02226220DB00B6F692 /* TaquinViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E4E01226220DB00B6F692 /* TaquinViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E29E4DE72261DC9D00B6F692 /* TaquinGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaquinGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29E4DEB2261DC9D00B6F692 /* TaquinGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaquinGameUITests.swift; sourceTree = "<group>"; };
 		E29E4DED2261DC9D00B6F692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29E4DFF22621A0200B6F692 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E29E4E01226220DB00B6F692 /* TaquinViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaquinViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		E29E4DCA2261DC9700B6F692 /* TaquinGame */ = {
 			isa = PBXGroup;
 			children = (
+				E29E4DFF22621A0200B6F692 /* GameViewController.swift */,
 				E29E4DCB2261DC9700B6F692 /* AppDelegate.swift */,
 				E29E4DCD2261DC9700B6F692 /* ViewController.swift */,
 				E29E4DCF2261DC9700B6F692 /* Main.storyboard */,
 				E29E4DD22261DC9D00B6F692 /* Assets.xcassets */,
 				E29E4DD42261DC9D00B6F692 /* LaunchScreen.storyboard */,
 				E29E4DD72261DC9D00B6F692 /* Info.plist */,
+				E29E4E01226220DB00B6F692 /* TaquinViewCell.swift */,
 			);
 			path = TaquinGame;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29E4E02226220DB00B6F692 /* TaquinViewCell.swift in Sources */,
 				E29E4DCE2261DC9700B6F692 /* ViewController.swift in Sources */,
+				E29E4E0022621A0200B6F692 /* GameViewController.swift in Sources */,
 				E29E4DCC2261DC9700B6F692 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
